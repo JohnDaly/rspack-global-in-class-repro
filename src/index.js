@@ -1,3 +1,5 @@
-import('./render').then(exports => {
-    exports.render()
-})
+class Example {
+  constructor(global = false) {
+    this.global = global;
+  }
+}
